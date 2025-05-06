@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 
-// Import plalist.css
+import './Playlist.css';
 
 import Tracklist from '../Tracklist/Tracklist';
 

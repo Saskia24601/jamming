@@ -1,14 +1,14 @@
-import React, { useState, useCallback } from 'react';
-import ReactDOM from 'react-dom/client';
+import React, {useState, useCallback } from 'react';
 
 //Components
 import Playlist from '../Playlist/Playlist';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Spotify from '../../util/Spotify';
-import Track from '../Track/Track';
-import TrackList from '../Tracklist/Tracklist';
+//import Track from '../Track/Track';
+//import TrackList from '../Tracklist/Tracklist';
 
+import './App.css';
 
 const App = () => {
   const [searchResults, setSearchResults] = useState([]);
@@ -50,7 +50,7 @@ const App = () => {
   return (
     <div>
       <h1>
-        Ja<span className="highlight">mmm</span>ing
+        Jamming
       </h1>
       <div className="App">
         <SearchBar onSearch={search} />
